@@ -1,2 +1,2 @@
 # EasyCalculator
-Easy Calculator -- by Wendy
+Easy Calculator -- 小程序
