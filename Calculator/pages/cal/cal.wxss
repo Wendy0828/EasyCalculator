@@ -1,0 +1,36 @@
+/* pages/cal/cal.wxss */
+.cal{
+  display: flex;
+  flex-direction: column;
+  justify-content:  space-between;
+  height: 100%;
+}
+.cal-top {
+  font-size: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10rpx 30rpx;
+  height: 100%;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  width: 25%;
+  line-height: 184rpx;
+  text-align: center;
+  border: solid 1rpx #eee;
+}
+
+.item:active, .active {
+  background: #ff6f0f;
+  color: #fff;
+}
+
+.active-clean {
+  color: #ff6f0f;
+}

@@ -1,0 +1,40 @@
+<!--pages/cal/cal.wxml-->
+<view class='cal'>
+  <view class='cal-top'>
+    <view class="sceen">
+      {{ total }}
+    </view>
+  </view>
+  <view class="cal-content">
+    <view class="btn-group">
+      <view class="item active-clean" bindtap="handleBtnClick" id="{{idClean}}">С</view>
+      <view class="item" bindtap="handleBtnClick" id="{{idBack}}">←</view>
+      <view class="item" bindtap="historyBtnClick">H</view>
+      <view class="item" bindtap="handleBtnClick" id="{{idChu}}"> ÷ </view>
+    </view>
+    <view class="btn-group">
+      <view class="item" bindtap="handleBtnClick" id="{{id7}}">7</view>
+      <view class="item" bindtap="handleBtnClick" id="{{id8}}">8</view>
+      <view class="item" bindtap="handleBtnClick" id="{{id9}}">9</view>
+      <view class="item" bindtap="handleBtnClick" id="{{idMultiply}}"> x </view>
+    </view>
+     <view class="btn-group">
+      <view class="item" bindtap="handleBtnClick" id="{{id4}}">4</view>
+      <view class="item" bindtap="handleBtnClick" id="{{id5}}">5</view>
+      <view class="item" bindtap="handleBtnClick" id="{{id6}}">6</view>
+      <view class="item" bindtap="handleBtnClick" id="{{idLess}}"> - </view>
+    </view>
+     <view class="btn-group">
+      <view class="item" bindtap="handleBtnClick" id="{{id1}}">1</view>
+      <view class="item" bindtap="handleBtnClick" id="{{id2}}">2</view>
+      <view class="item" bindtap="handleBtnClick" id="{{id3}}">3</view>
+      <view class="item" bindtap="handleBtnClick" id="{{idAdd}}"> + </view>
+    </view>
+     <view class="btn-group">
+      <view class="item" bindtap="handleBtnClick" id="{{idYu}}">%</view>
+      <view class="item" bindtap="handleBtnClick" id="{{id0}}">0</view>
+      <view class="item" bindtap="handleBtnClick" id="{{idPoint}}">.</view>
+      <view class="item active" bindtap="handleBtnClick" id="{{idSum}}"> = </view>
+    </view>
+  </view>
+</view>

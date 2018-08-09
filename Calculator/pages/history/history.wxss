@@ -1,0 +1,11 @@
+/* pages/history/history.wxss */
+.history{
+  display: flex;
+  flex-direction: column;
+  padding:20rpx 30rpx;
+  font-size:30rpx;
+}
+.item{
+line-height:50px;
+border-bottom: #ccc 2rpx dashed;
+}
